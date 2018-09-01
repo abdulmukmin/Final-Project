@@ -1,5 +1,5 @@
 # Final-Project Phase 0 Hacktiv8 Batch 23
-INTRODUCE POLL PAYPOINT BILLING VIEW
+INTRODUCE poll payPOINT BILLING VIEW
 
 Tujuan billing view page ini : Tools bagi konsumen 'poll payPoint' yang ini melihat detail saldonya pulsanya.
 
