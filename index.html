@@ -1,0 +1,40 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Billing POINT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="script.js"></script>
+</head>
+<body>   
+    <div id="inputNamaPelanggan">
+        <h3>poll payPoint</h1>
+        <p>Masukkan Custormer ID anda </p>
+        <input type="text" size=1 id="idPelanggan" value="">
+        <br>
+        <button id="btnDetail" onclick="cariNamaPelanggan()">Lihat Detail Saldo</button>
+    </div>
+        
+        <form id='frmDetailTagihan'>
+            <p>Nama : <b id='namaPelanggan'>Masukkan Customer ID anda</b></p>
+            <table border=1 margin=auto id="tabelDetailTagihan">
+                <tr>
+                    <td>No.</td>
+                    <td>Tanggal Transaksi</td>
+                    <td>Nomor Tujuan</td>
+                    <td>Harga Jual</td>
+                </tr>
+            </table>
+            <p>Total saldo poll payPoint : <b id='totalTagihan'>0</b> </p>
+        </form>
+</body>
+<footer>
+    <form>
+        <div id="footer">
+        <p><a href="loginPenjual.html"> login penjual</p>
+        </div>
+    </form>
+</footer>
+</html>

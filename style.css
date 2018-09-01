@@ -1,0 +1,47 @@
+#inputNamaPelanggan {
+
+    text-align: center;
+    border-color: #3be919;
+    border-style: double;
+    background-color: honeydew;
+    padding: 8px;
+    margin: 0px 75px;
+    position: static;
+    width: -moz-max-content;
+
+}
+
+#footer {
+    position:absolute;
+    bottom:0;
+    width:98%;
+    height:60px;   /* tinggi dari footer */
+    background:#6cf;
+    text-align: right;
+ }
+
+ #loginPenjual {
+
+    text-align: center;
+    max-width: 700px;
+    border-color: #3be919;
+    border-style: double;
+    background-color: honeydew;
+    padding: 8px;
+    margin: 200px auto;
+    position: static;
+    width: -moz-max-content;
+
+}
+
+#tabelDetailTagihan {
+    font-family: sans-serif;
+    color: #232323;
+    border-collapse: collapse;
+}
+ 
+#tabelDetailTagihan, td {
+    border: 1px solid #999;
+    padding: 2px 3px;
+    text-align: right
+}
