@@ -84,10 +84,11 @@ function cariNamaPelanggan(){
             }
         }
         if (namaPelanggan===''){
-            document.getElementById('namaPelanggan').innerHTML ='Customer ID \''+idPelanggan+'\' Tidak ditemukan!';
+            //document.getElementById('namaPelanggan').innerHTML ='Customer ID \''+idPelanggan+'\' Tidak ditemukan!';
             alert(idPelanggan+' tidak ditemukan, periksa kembali!')
             document.getElementById("idPelanggan").value=''
         } else {
+            tampilkanDetailTagihan()
             detailTagihan(dataPenjualan,namaPelanggan)
         }
     }
@@ -135,4 +136,9 @@ function formatUang(number) {
       hasil += rupiah[i]
     }
     return "Rp. "+ hasil +",00"
+}
+
+function tampilkanDetailTagihan(){
+    var f = document.getElementById('frmDetailTagihan')
+    f.style.display='block'
 }
