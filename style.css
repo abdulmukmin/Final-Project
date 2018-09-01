@@ -49,3 +49,7 @@
 footer{
     padding-bottom: 15%
 }
+
+#frmDetailTagihan{
+    display: none
+}
